@@ -8,8 +8,8 @@ This is a backend-only service. If you're looking for the web frontend applicati
 
 ```bashl
 
-git clone https://github.com/BZEdge/bitcore-node-bitzec.git
-cd bitcore-node-bzedge
+git clone https://github.com/bitzec/bitcore-node-bitzec.git
+cd bitcore-node-bitzec
 npm install
 cd bin
 ./bitcore-node create mynode
