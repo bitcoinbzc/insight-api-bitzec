@@ -50,7 +50,7 @@
     "insight",
     "insight api",
     "blockchain",
-    "zcash api",
+    "bitzec api",
     "blockchain api",
     "json",
     "bitcore"
@@ -65,8 +65,8 @@
   "bitcoreNode": "lib",
   "dependencies": {
     "async": "*",
-    "bitcore-lib-zcash": "str4d/bitcore-lib-zcash",
-    "bitcore-message-zcash": "str4d/bitcore-message-zcash",
+    "bitcore-lib-bitzec": "bitzec/bitcore-lib-bitzec",
+    "bitcore-message-bitzec": "bitzec/bitcore-message-bitzec",
     "body-parser": "^1.13.3",
     "compression": "^1.6.1",
     "lodash": "^2.4.1",
