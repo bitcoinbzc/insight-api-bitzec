@@ -1,7 +1,7 @@
 [
   {
     "poolName": "Bitfly",
-    "url": "https://bitzec.flypool.org/",
+    "url": "https://zcash.flypool.org/",
     "searchStrings": [
       "/flypool/"
     ]
