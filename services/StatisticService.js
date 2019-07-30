@@ -1,7 +1,7 @@
 'use strict';
 
 var async = require('async');
-var bitcore = require('bitcore-lib-zelcash');
+var bitcore = require('bitcore-lib-bitzec');
 var BigNumber = require('bignumber.js');
 var LRU = require('lru-cache');
 var Common = require('../lib/common');
@@ -1215,7 +1215,7 @@ StatisticService.prototype.getBlockReward = function (height, callback) {
     if (halvings >= 64) {
         return 0;
     }
-    
+
     // Mining slow start
     // The subsidy is ramped up linearly, skipping the middle payout of
     // MAX_SUBSIDY/2 to keep the monetary curve consistent with no slow start.
