@@ -53,7 +53,7 @@
     "bitzec api",
     "blockchain api",
     "json",
-    "bitcore"
+    "bitzec"
   ],
   "engines": {
     "node": ">=0.12.0"
@@ -65,15 +65,18 @@
   "bitcoreNode": "lib",
   "dependencies": {
     "async": "*",
-    "bitcore-lib-bitzec": "bitzec/bitcore-lib-bitzec",
-    "bitcore-message-bitzec": "bitzec/bitcore-message-bitzec",
+    "bignumber.js": "^4.0.2",
     "body-parser": "^1.13.3",
     "compression": "^1.6.1",
     "lodash": "^2.4.1",
     "lru-cache": "^4.0.1",
+    "mongoose": "5.1.7",
     "morgan": "^1.7.0",
-    "request": "^2.64.0"
+    "bitcore-lib-bitzec": "git://github.com/bitzec/bitcore-lib-bitzec.git",
+    "bitcore-message-bitzec": "git://github.com/bitzec/bitcore-message-bitzec.git",
+    "request": "^2.83.0"
   },
+  "peerDependencies": {},
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^2.4.5",
