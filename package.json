@@ -1,7 +1,7 @@
 {
   "name": "insight-api-bitzec",
   "description": "A bitzec blockchain REST and web socket API service for Bitcore Node.",
-  "version": "0.4.3",
+  "version": "1.1.3",
   "repository": "git://github.com/bitzec/insight-api-bitzec.git",
   "contributors": [
     {
@@ -53,7 +53,7 @@
     "bitzec api",
     "blockchain api",
     "json",
-    "bitzec"
+    "zcash"
   ],
   "engines": {
     "node": ">=0.12.0"
