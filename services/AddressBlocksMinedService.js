@@ -1,6 +1,6 @@
 var Common = require('../lib/common');
 var async = require('async');
-var bitcore = require('bitcore-lib-bitzec');
+var bitcore = require('bitcore-lib-zelcash');
 var TYPE = 'BLOCKS_MINED';
 var BN = bitcore.crypto.BN;
 
